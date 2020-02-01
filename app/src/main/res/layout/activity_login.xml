@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/back">
+
+    <ProgressBar
+            android:id="@+id/progressBar_login"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:indeterminate="true"
+            android:visibility="invisible"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:layout_centerInParent="true"
+            android:orientation="vertical"
+            android:id="@+id/relativeLayout">
+        <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:src="@drawable/Teamchaos1"/>
+
+        <ImageView
+                android:layout_width="350dp"
+                android:layout_height="287dp"
+                android:src="@drawable/blood3"/>
+        <Button
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:id="@+id/login"
+                android:text="Login"
+                android:textColor="@color/black"
+                android:background="@drawable/button"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
